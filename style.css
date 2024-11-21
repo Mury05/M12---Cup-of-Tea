@@ -1,0 +1,664 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(242 242 242);
+
+}
+
+/* HEADER MOBILE */
+header {
+    background: url('./assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15px;
+}
+
+header p {
+    background-color: rgb(135 158 15);
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-block: 10px;
+}
+
+header .coin,
+header .basket {
+    display: none;
+}
+
+header svg {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid rgb(241, 241, 241);
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.caddie {
+    width: 120px;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    align-items: center;
+    padding-block: 5px;
+    margin-block: 10px;
+    background-color: rgb(150 176 17);
+    color: white;
+    opacity: 75%;
+    box-shadow: 1px 1px 1px 1px rgb(135 158 15);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header li {
+    color: white;
+    padding-block: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+header li:hover {
+    background-color: rgb(160 175 56);
+}
+
+/*FOOTER MOBILE */
+.quality ul {
+    background-color: rgb(135 158 15);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 'one two'
+        'three four'
+        'five five';
+    gap: 10px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.quality p {
+    text-transform: uppercase;
+}
+
+.quality li {
+    color: rgb(224, 224, 223);
+    padding-block: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.quality svg {
+    width: 50px;
+
+}
+
+.one {
+    justify-self: center;
+    grid-area: one;
+}
+
+.two {
+    justify-self: center;
+    grid-area: two;
+}
+
+.three {
+    justify-self: center;
+    grid-area: three;
+}
+
+.four {
+    justify-self: center;
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+    justify-self: center;
+}
+
+.footer-link {
+    background-color: rgb(150 176 17);
+}
+
+.footer-link ul {
+    margin-block: 0;
+    padding-bottom: 10px;
+}
+
+.footer-link a {
+    color: rgb(225, 226, 219);
+    text-transform: none;
+}
+
+.footer-link li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.first {
+    text-transform: uppercase;
+    color: white;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*HOME PAGE MOBILE */
+
+.container {
+    background-color: rgb(242 242 242);
+    padding-bottom: 20px;
+}
+
+.tablette {
+    display: none;
+}
+
+.tea-part {
+    padding-top: 30px;
+}
+
+.tea ul {
+    background-color: white;
+    margin-top: 0;
+}
+
+.text-with-lines {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: rgb(226 222 210);;
+    margin-inline: 15px;
+}
+
+.title {
+    background-color: white;
+    margin-block: 0;
+    color: rgb(142 178 28);
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin: 0 5px;
+    white-space: nowrap;
+}
+
+.quality figure {
+    margin-inline: 30px;
+}
+
+figcaption {
+    color: rgb(103 103 111);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.new-part figure, .listing figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-part figure img, .listing figure img{
+    width: 50%;
+}
+.new-part .content1,
+.begin {
+    margin-inline: 10px;
+    text-align: center;
+    color: rgb(117 117 107);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 15px;
+}
+
+.begin {
+    margin-block: 8px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(117 117 107);
+    margin-block: 5px;
+}
+
+.new-part, .listing{
+    background-color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.btn-product {
+    background-color: rgb(176 144 103);
+    padding-block: 17px;
+    padding-inline: 10px;
+    margin-top: 10px;
+}
+
+                    /* ABOUT PAGE */
+section {
+    padding-inline: 25px;
+    background-color: white;
+
+}
+
+section>h1 {
+    color: rgb(100 98 103);
+    font-size: 40px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    margin-block: 0;
+    padding-top: 30px;
+}
+
+.title-about {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    white-space: wrap;
+
+}
+.about-text-lines {
+    flex-wrap: wrap;
+}
+
+.line {
+    padding-inline: 10px;
+}
+
+article img {
+    width: 100%;
+    margin-block: 10px;
+}
+
+article p,
+.about-second-section p, .concept{
+    color: rgb(100 98 103);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+.about-second-section{
+    padding-bottom: 20px;
+}
+
+.last-paragraph-about {
+    margin-bottom: 0;
+}
+
+.concept li{
+    background-color: rgb(234 239 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 50px;
+    padding-block: 20px;
+    text-align: center;
+}
+
+.concept img {
+    width: 100px;
+}
+
+
+/* LISTING MOBILE PAGE */
+
+.listing .listing-paragraph{
+    color: rgb(100 98 103);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+
+}
+.listing article{
+    margin-top: 25px;
+}
+.listing figcaption {
+    font-size: 20px;
+}
+.listing figure img{
+    width: 100%;
+}
+.listing > .listing-head > img{
+    display: none;
+   margin-top: 40px;
+}
+
+
+/* PRODUCT MOBILE PAGE */
+
+.product-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(100 98 103);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    padding-bottom: 50px;
+
+}
+.product-part h3{
+    margin-top: 4px;
+}
+.product-part .reference{
+    margin-top: 0px;
+    font-style: italic;
+}
+.star, .heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.product-part .avis, .heart a{
+    color: rgb(177 184 26);
+    text-transform: none;
+}
+.middle-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+select {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+  .btn-product-single{
+    width: 75%;
+    text-align: center;
+  }
+.heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.heart svg{
+    width: 20px;
+    margin-right: 5px;
+}
+.heart a{
+    color: rgb(177 184 26);
+}
+.product-text{
+    padding-inline: 20px;
+}
+.product-part strong{
+    margin-top: 10px;
+}
+@media screen and (min-width: 800px) {
+
+    /* HEADER TABLETTE */
+    header .coin {
+        display: flex;
+        justify-content: end;
+    }
+
+    .coin svg {
+        border: 0px;
+        position: absolute;
+        width: 120px;
+        top: -383px;
+        right: -8px;
+    }
+
+    .caddie {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        margin-block: 50px;
+        opacity: 75%;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px rgb(135 158 15);
+    }
+
+    header .img {
+        display: block;
+    }
+
+    header .basket {
+        display: inline;
+        color: rgb(217, 241, 221);
+    }
+
+    .one-top {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: 20px;
+    }
+
+    .prix {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 8px;
+        color: white;
+    }
+
+    header ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    /* MAIN NOEL PART TABLETTE*/
+    .tablette {
+        display: block;
+    }
+
+    .noel {
+        background-color: white;
+        margin-block: 0;
+        color: rgb(142 178 28);
+        padding-block: 40px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+    }
+
+    .tablette-img {
+        width: 100%;
+    }
+
+    .carousel {
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        padding: 20px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .carousel img {
+        width: 100%;
+    }
+    .new-part figure img, .listing figure img{
+        width: 43%;
+    }
+
+    /*FOOTER TABLETTE */
+    .quality-tablette ul {
+        background-color: rgb(135 158 15);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        padding-top: 25px;
+    }
+
+    /* ABOUT TABLETTE */
+
+    .amelie{
+        float: left;
+        margin-right: 15px;
+    }
+    .xavier{
+        float: right;
+        margin-left: 15px;
+
+    }
+    article img {
+        width: 75%;
+        margin-right: 10px;
+    }
+
+
+    /* LISTING TABLETTE */
+
+    /* PRODUCT TABLETTE */
+    .product-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        width: 100%;
+    }
+
+    .product-middle{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .middle-right{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .btn-product-single{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .heart{
+        align-self: end;
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    strong{
+        align-self: start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* HEADER */
+    .coin svg {
+        top: -390px;
+        right: -8px;
+    }
+
+    .container,
+    .one-top,
+    nav {
+        width: 1100px;
+        margin: auto;
+    }
+
+    .quality ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .new-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title{
+        white-space: nowrap;
+
+    }
+    .new-part figure, .listing figure{
+        margin-inline: 15px;
+    }
+    .new-part figure img, .listing figure img{
+        width: 45%;
+    }
+    .new-part .image-product3{
+        /* width: 40%; */
+    }
+    .figure-product3 .title{
+        margin-inline: 0px;
+        font-size: 29px;
+    }
+
+        /* ABOUT SCREEN */
+
+    .concept ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .concept li{
+        padding-inline: 20px;
+        padding-block: 30px;
+    }
+
+        /* LISTING SCREEN */
+    .listing-head{
+        display: flex;
+    }
+    .listing > .listing-head > img{
+        display: block;
+
+    }
+    .listing-screen{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
